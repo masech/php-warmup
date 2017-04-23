@@ -9,7 +9,7 @@
  * You have to produce a result in the form: (N_1', D) , ... (N_n, D)
  * in which D is as small as possible and  N_1/D == numer_1/denom_1 ... N_n/D == numer_n,/denom_n.
  * 
- * for example: echo convertFrac([[1, 2], [1, 3], [1, 4]);  // result is (6,12)(4,12)(3,12)
+ * for example: echo convertFrac([[1, 2], [1, 3], [1, 4]]);  // result is (6,12)(4,12)(3,12)
  */
 
 function convertFrac($lst)
