@@ -14,7 +14,7 @@
 
 function convertFrac($lst)
 {
-    $simpleNums = [2, 3, 5, 7, 11];
+    $simpleNums = [2];
 
     $findNextSimpleNum = function () use (&$simpleNums) {
 
@@ -26,7 +26,7 @@ function convertFrac($lst)
             $finded = true;
             for ($i =2; $i < $verifiedNum; $i++) {
                 if ($verifiedNum % $i == 0) {
-                    $flag = false;
+                    $finded = false;
                     $verifiedNum += 1;
                     break;
                 }
@@ -53,7 +53,6 @@ function convertFrac($lst)
             } elseif (!is_int(next($simpleNums))) {
                 end($simpleNums);
                 $findNextSimpleNum();
-                next($simpleNums);
             }
 
         }
