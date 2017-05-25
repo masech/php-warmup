@@ -13,7 +13,7 @@ Given an array `arr` of strings complete the function `landPerimeter` by calcula
  ```
 or 
  
-![](./pic_1.jpg)
+![](./pic_1.png)
  
 should return: `"Total land perimeter: 24"`,
 
@@ -28,7 +28,7 @@ while
  ```
  or
  
- ![](./pic_2.jpg)
+ ![](./pic_2.png)
  
  should return: `"Total land perimeter: 18"`
  
